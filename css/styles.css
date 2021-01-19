@@ -1,3 +1,7 @@
+.navbar {
+  background-color: #901CAD;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -23,7 +27,9 @@ footer {
   padding: 30px;
   background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
   color: white;
+  margin: 0;
 }
+  
 
 .row-content {
   padding: 50px 0;
