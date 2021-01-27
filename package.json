@@ -1,23 +1,30 @@
 {
-  "name": "2-bootstrap",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site Nucamp",
+  "description": "Nucamp Website",
   "main": "index.html",
-  "scripts": {
-    "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "John Schaub",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  },
   "dependencies": {
-    "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
+    "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
+    "lite-server": "^2.6.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmoquak/nucampsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desmoquak/nucampsite/issues"
+  },
+  "homepage": "https://github.com/desmoquak/nucampsite#readme"
 }
