@@ -4,14 +4,15 @@
   "description": "Nucamp Website",
   "main": "index.html",
   "dependencies": {
-    "bootstrap-social": "^5.1.1",
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
-    "lite-server": "^2.6.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
@@ -21,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/desmoquak/nucampsite.git"
   },
-  "author": "",
+  "author": "John Schaub",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/desmoquak/nucampsite/issues"
