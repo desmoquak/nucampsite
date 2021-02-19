@@ -9,15 +9,13 @@
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
 
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+     <!-- build:css css/main.css -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="stylesheet" href="css/styles.css" />
+     <!-- endbuild -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 
     <title>NuCamp: A Better Way To Camp</title>
   </head>
@@ -100,8 +98,9 @@
             staff personally verify each campsite to make sure that they are up
             to our standards. We also present a platform for campers to share
             reviews on campsites they have visited with each other.
-        </div>
           </p>
+          </div>
+          
           <div class="col-sm-6">
             <div class="card">
               <h3 class="card-header bg-primary text-white">Facts at a Glance</h3>
@@ -259,10 +258,10 @@
             <h5>Social</h5>
             <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook"  href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter"<a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google"<a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                    <a class="btn btn-social-icon btn-linkedin"<a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                    <a class="btn btn-social-icon btn-github"<a href="http://github.com/"><i class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-github" href="http://github.com/"><i class="fa fa-github"></i></a>
           </div>
           <div class="col-sm-4 text-center">
             <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
@@ -272,9 +271,12 @@
       </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
